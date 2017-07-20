@@ -1,0 +1,51 @@
+.buttons{
+  margin: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.buttons:hover{
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+#listFruit{
+  width: 500px;
+  margin-top:0px;
+  position: relative;
+  top: -42px;
+  display: none;
+}
+
+
+.item{
+  color: green;
+}
+
+#micro{
+  color: blue;
+  font-size: 25px;
+  margin: 0px;
+  position: relative;
+  left: 270px;
+  top: -30px;
+}
+
+#micro:hover{
+  cursor: pointer;
+  color: rgb(0,0,120);
+}
+
+body{
+  background: rgb(220,220,220);
+}
+
+#icon_lupa{
+  position: relative;
+  top: -33px;
+  left: -220px;
+}
+
+.eliminar{
+  position: absolute;
+  right: 20px;
+}
