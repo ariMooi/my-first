@@ -14,16 +14,15 @@
   <body>
 
     <section style="margin: 80px 10px 80px 10px; padding: 5px; background: rgba(250,250,250, 0.7); box-shadow: 0px 3px 5px blue;">
-      <h1 style="color: blue; margin: 20px;" class="text-center">FRUTAS</h1>
+      <h1 class="text-center">Frutas</h1>
 
       <center>
         <form>
           <div class="form-group" style="justify-content: center;">
-            <label for="newFruit" class="text-center">Another label</label>
             <input type="text" class="form-control" id="newFruit" style="width: 500px;"
               onfocus="showItems()" onkeypress="validar(event)">
             <i class="fa fa-search" aria-hidden="true" id="icon_lupa"></i>
-            <span class="fa fa-microphone" aria-hidden="true" id="micro"></span>
+            <span class="fa fa-microphone" aria-hidden="true" id="micro" onclick="procesar()"></span>
           </div>
 
           <ul class="list-group" id="listFruit">
